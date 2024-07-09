@@ -14,8 +14,10 @@ body{
     max-width: 1420px;
 }
 
+
 section{
-    margin-bottom: 85px;
+    /* margin-bottom: 90px; */
+    margin-top: 90px;
 }
 
 /* shared styles */
@@ -25,7 +27,7 @@ section{
     color: rgb(39, 39, 39);
     font-family: Lato;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
     /* line-height: 48px; */
     letter-spacing: 0%;
     text-align: center;
@@ -147,11 +149,11 @@ section{
     /* border: 3px solid blue;     */
 }
 
-.img-item-1, .img-item-2, .img-item-3{
+.featured-img-container .img-item-1, .img-item-2, .img-item-3, .img-item-4{
     width: 33%;
     height: 100%;
    
-        display: flex;
+    display: flex;
     justify-content: center;
     /* align-items: center; */
 
@@ -159,15 +161,15 @@ section{
     /* border: 3px solid green; */
 }
 
-.img-item-1{
+.featured-img-container .img-item-1{
     background-color: rgba(167, 33, 98, 0.15);
 }
 
-.img-item-2{
+.featured-img-container .img-item-2{
     background-color: rgba(5, 151, 160, 0.15);
 }
 
-.img-item-3{
+.featured-img-container .img-item-3{
     background-color: rgba(71, 125, 17, 0.15);
 }
 
@@ -226,4 +228,43 @@ section{
     width: 55px;
     margin-bottom: 10px;
     /* border: 3px solid yellow; */
+}
+
+
+/* deals section styles */
+.deal .banner-text-container{
+  
+    align-items: center;
+    /* border: 3px solid red; */
+}
+
+.deal img{
+    margin: 67px;
+    /* border: 3px solid red; */
+}
+
+/* insta section styles */
+.insta-section{
+    height: 387px;
+}
+
+.insta-img-container{
+    width: 100%;
+    height: 265px;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    /* gap: 16px; */
+    /* border: 3px solid yellow; */
+}
+
+
+.insta-img-item-1, .insta-img-item-2, .insta-img-item-3, .insta-img-item-4{
+    width: 25%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+
+    /* border: 3px solid blue; */
 }
